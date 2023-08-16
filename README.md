@@ -6,14 +6,22 @@ This repository contains data and codes for our Interspeech 2023 Paper: [Towards
 - We accomplished this by translating questions and answers from the ClothoAQA dataset into seven additional languages. The languages included are French (fr), Hindi (hi), German (de), Spanish (es), Italian (it), Dutch (nl), and Portuguese (pt).
 - The mClothoAQA dataset contains a total of 1991 audio files. Each language variant consists of 35838 question-answer pairs.
 
-###  Downloading the Clotho-AQA dataset
+###  Downloading the Audios
 - Download the clotho-AQA dataset from https://zenodo.org/record/6473207.
 - Extract the zip file and place the audio files in `dataset/audio_files/` directory.
 
-### Multi-lingual mClothoAQA QA Files
+### Downloading the Multi-lingual mClothoAQA QA CSV Files
 - Copy the csv files for 8 languages from `mClothoAQA/` directory to `metadata/` directory.
 
 ##  Feature Extraction
+
+### Audio
 - Utilize the openL3 open source Python library for calculating deep audio embeddings. Install openL3 via `pip install openl3`.
 - Execute the `extract_features.py` script.
 - Upon completion, locate the stored audio embeddings at `dataset/features`.
+
+### Text QA
+- To encode the input question into word embeddings, we utilize FastText pre-trained word vectors.
+- These word vectors for 157 languages can be accessed here.
+- Download word vectors for these languages - French (fr), Hindi (hi), German (de), Spanish (es), Italian (it), Dutch (nl), and Portuguese (pt).
+- Keep the file in `dataset/word_embedding/` directory.
