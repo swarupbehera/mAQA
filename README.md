@@ -12,6 +12,8 @@ This repository contains data and codes for our Interspeech 2023 Paper: [Towards
 
 ### Downloading the Multi-lingual mClothoAQA QA CSV Files
 - Copy the csv files for 8 languages from `mClothoAQA/` directory to `metadata/` directory.
+- Run `split_dataset.py` to generate csv files for binary answers and single word answers.
+- In `mClothoAQA/`, I have shared the splitted files so you can skip the above splitting step.
 
 ##  Feature Extraction
 
@@ -25,7 +27,6 @@ This repository contains data and codes for our Interspeech 2023 Paper: [Towards
 - Download word vectors for the following languages and keep them in `dataset/word_embedding/` directory. English (en), French (fr), Hindi (hi), German (de), Spanish (es), Italian (it), Dutch (nl), and Portuguese (pt).
 
 ##  Training the model
-- Run `split_dataset.py` to generate csv files for binary answers and single word answers.
 - To train the model run `train.py`.
 - The model checkpoint will be saved for every 10 epochs. If you want to continue training from a saved checkpoint, assign the checkpoint path to `pre_trained_model_path` variable in `train.py`.
 
