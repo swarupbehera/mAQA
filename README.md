@@ -21,7 +21,5 @@ This repository contains data and codes for our Interspeech 2023 Paper: [Towards
 - Upon completion, locate the stored audio embeddings at `dataset/features`.
 
 ### Text QA
-- To encode the input question into word embeddings, we utilize FastText pre-trained word vectors.
-- These word vectors for 157 languages can be accessed here.
-- Download word vectors for these languages - French (fr), Hindi (hi), German (de), Spanish (es), Italian (it), Dutch (nl), and Portuguese (pt).
-- Keep the file in `dataset/word_embedding/` directory.
+- To encode the input question into word embeddings, we utilize FastText pre-trained word vectors. These word vectors for 157 languages can be accessed [here](https://fasttext.cc/docs/en/crawl-vectors.html).
+- Download word vectors for the following languages and keep them in `dataset/word_embedding/` directory. English (en), French (fr), Hindi (hi), German (de), Spanish (es), Italian (it), Dutch (nl), and Portuguese (pt).
