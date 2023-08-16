@@ -31,3 +31,6 @@ This repository contains data and codes for our Interspeech 2023 Paper: [Towards
 
 ##  Inference
 - Once the model is trained, update the variables `model_dir` and `model_path` in `run_inference.py` and execute the file.
+
+### Acknowledgement
+We'd like to acknowledge [AquaNet](https://github.com/partha2409/AquaNet) repository for serving as the basis of our project.
