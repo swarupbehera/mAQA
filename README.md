@@ -1,5 +1,5 @@
 # mAQA
-This repository contains data and codes for our Interspeech 2023 Paper: [Towards Multi-Lingual Audio Question Answering](https://www.isca-speech.org/archive/pdfs/interspeech_2023/behera23_interspeech.pdf).
+This repository contains data and codes for our Interspeech 2023 Paper: [Towards Multi-Lingual Audio Question Answering](https://www.isca-speech.org/archive/pdfs/interspeech_2023/behera23_interspeech.pdf){:target="_blank" rel="noopener"}.
 
 ## Data
 
