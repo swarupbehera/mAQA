@@ -11,7 +11,7 @@ This repository contains data and codes for our Interspeech 2023 Paper: [Towards
 - Extract the zip file and place the audio files in `dataset/audio_files/` directory.
 
 ### Multi-lingual mClothoAQA QA Files
-- Copy the csv files for 8 languages from `mClothoAQA' directory to `metadata/` directory.
+- Copy the csv files for 8 languages from `mClothoAQA` directory to `metadata/` directory.
 
 ##  Feature Extraction
 - Utilize the openL3 open source Python library for calculating deep audio embeddings. Install openL3 via `pip install openl3`.
