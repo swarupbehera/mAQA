@@ -16,4 +16,4 @@ This repository contains data and codes for our Interspeech 2023 Paper: [Towards
 ##  Feature Extraction
 - Utilize the openL3 open source Python library for calculating deep audio embeddings. Install openL3 via `pip install openl3`.
 - Execute the `extract_features.py` script.
-- Upon completion, locate the stored deep audio embeddings at `dataset/features`.
+- Upon completion, locate the stored audio embeddings at `dataset/features`.
